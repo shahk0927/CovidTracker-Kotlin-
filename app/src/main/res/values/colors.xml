@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorDeath">#FF0000</color>
+    <color name="colorState">#000000</color>
+    <color name="colorRecovered">#13E168</color>
+    <color name="colorActive">#009EFF</color>
+    <color name="colorTotalConfirm">#FF6D00</color>
+</resources>

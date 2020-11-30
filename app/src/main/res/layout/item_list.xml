@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingEnd="3dp"
+    android:paddingStart="3dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:orientation="horizontal"
+    android:background="?attr/backgroundColor"
+    android:layout_marginBottom="5dp"
+    >
+
+    <TextView
+        android:id="@+id/stateTv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:background="?attr/backgroundColor"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingStart="2dp"
+        android:layout_marginEnd="1dp"
+        android:text="state"
+        android:textAllCaps="true"
+        android:fontFamily="@font/montserrat"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="?attr/stateColor" />
+
+    <TextView
+        android:id="@+id/confirmedTv"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:fontFamily="@font/roboto"
+        android:background="?attr/backgroundColor"
+        android:textColor="?attr/totalConfirmColor"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:textAlignment="center"
+        android:text="@string/demo_Num"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+
+    <TextView
+        android:id="@+id/activeTv"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textAllCaps="true"
+        android:background="?attr/backgroundColor"
+        android:textColor="?attr/activeColor"
+        android:text="@string/demo_Num"
+        android:textAlignment="center"
+        android:fontFamily="@font/roboto"
+        android:layout_height="match_parent"
+        />
+
+
+    <TextView
+        android:id="@+id/recoveredTv"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:textColor="?attr/recoveredColor"
+        android:fontFamily="@font/roboto"
+        android:textAllCaps="true"
+        android:background="?attr/backgroundColor"
+        android:textAlignment="center"
+        android:text="939333"
+        android:layout_height="match_parent"
+        />
+
+    <TextView
+        android:id="@+id/deathTv"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:textAllCaps="true"
+        android:text="939333"
+        android:background="?attr/backgroundColor"
+        android:textColor="?attr/deathColor"
+        android:fontFamily="@font/roboto"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textAlignment="center"
+        android:layout_height="match_parent"
+        />
+
+</LinearLayout>

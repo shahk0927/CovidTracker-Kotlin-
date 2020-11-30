@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingEnd="5dp"
+    android:layout_marginBottom="10dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:padding="8dp"
+        android:text="Regions"
+        android:textAllCaps="true"
+        android:fontFamily="@font/montserrat"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="?attr/textColor"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Total"
+        android:fontFamily="@font/roboto"
+        android:textColor="@color/colorTotalConfirm"
+        android:paddingTop="8dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:paddingBottom="8dp"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:text="Active"
+        android:textAllCaps="true"
+        android:fontFamily="@font/roboto"
+        android:textColor="@color/colorActive"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Rcvd"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:fontFamily="@font/roboto"
+        android:textColor="@color/colorRecovered"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Death"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:fontFamily="@font/roboto"
+        android:textColor="@color/colorDeath"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:textStyle="bold"
+        />
+
+
+</LinearLayout>
